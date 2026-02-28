@@ -1,0 +1,154 @@
+
+:root {
+    --verde: #2f5d3a;
+    --verde-claro: #3f7d4c;
+    --bege: #f4f1e8;
+    --marrom: #5c4033;
+    --texto: #2b2b2b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: var(--bege);
+    color: var(--texto);
+}
+
+header {
+    background: var(--verde);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(to right, var(--verde), var(--verde-claro));
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: var(--marrom);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #3d2a22;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    color: var(--verde);
+}
+.section2 {
+    background-color:#6aad3e;
+    padding: 60px 20px;
+    max-width: 100%;
+    margin-bottom: 0%;
+}
+
+.section2 h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    color: var(--verde);
+}
+
+.estrutura h2{
+    text-align: center;
+}
+
+.estrutura_conteudo{
+    display: flex;
+    align-items: flex-start; /* alinha verticalmente */
+    gap: 20px; /* espaço entre imagem e texto */
+    background-color: #8a7947;
+    text-align: left;
+}
+.bg1{
+    background-color: #8a7947;
+}
+.bg2{
+    background-color: #af9a5a;
+}
+.bg3{
+     background-color: #ccae55;
+}
+
+.estrutura_conteudo h3{
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-bottom: 2%;
+       
+}
+
+
+.estrutura_conteudo img {
+    padding-top: 1%;
+    width: 20%;      /* tamanho fixo */
+    height: 20%;     /* tamanho fixo */
+    object-fit: contain;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.card {
+    width: 100%;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: var(--verde);
+}
+
+
+footer {
+    background: var(--verde);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
